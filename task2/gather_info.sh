@@ -18,7 +18,7 @@ IFS=$'\n'   # separator of ip(s)
 # Looping in case there are multiple ip for same domain(eg:yahoo.in)
 for ip in $domain_ips
 do
-    nmap_info=$(sudo nmap -p $lower_p-$upper_p $ip) # Scan for ALL the open ports on the ip address 
+    nmap_info=$(sudo nmap -p --open $lower_p-$upper_p $ip) # Scan for all the 'open' ports on the ip address in the provided range
     #Scan a range of ports 	nmap -p 1-100 192.168.1.1
     # use just 'nmap_info=$(sudo nmap $ip)' to scan the most common 1,000 ports(Saves time)
 
