@@ -1,6 +1,6 @@
 cd . # specify the path of local cloned repository here
 
-remote_name="origin"    # remote name to pull from
+remote_name="origin"    # remote name to pull from (eg:upstream,upstream2)
 branch_name="main"        # remote branch to pull from to a local branch with same name(assumption)
 
 check_remote=$(git remote -v 2>&1 | grep -c $remote_name)
