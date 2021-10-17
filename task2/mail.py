@@ -1,11 +1,10 @@
-# # https://realpython.com/python-send-email/
+## https://realpython.com/python-send-email/
 import smtplib, ssl,sys
 
 port = 587  # For starttls
 smtp_server = "smtp.gmail.com"
 sender_email = "xyz@gmail.com"
 receiver_email = "pqr@gmail.com"
-# password = input("Type your password and press enter:")
 password="<Enter password here>"
 
 info_file=sys.argv[1] # supplied as argument by bash script

@@ -1,17 +1,16 @@
-read -p "Enter the domain to scan(eg: google.com): " domain
-
+domain=$1 # Bash argument 1
 domain_ips=$(dig $domain +short) # Obtain ip address(es) from domain
 # same domain can have multiple ip
 # Of form 'dig <domain-url> +short'
 # Domain is what's after "@" in an email address, or after "www." in a web address
 # eg: google.com,gmail.com,students.iitmandi.ac.in,etc
 
-echo -e "Enter the range of ports to scan(from 1 to 65535):"
-read -p "Enter lower port limit: " lower_p
-read -p "Enter upper port limit: " upper_p
+lower_p=$2  # Bash argument 2
+upper_p=$3  # Bash argument 3
+
 
 date=$(date)
-file_name="email_msg $date"
+file_name="email_msg $date" # For unique file names with timestamps
 
 echo -e "\nGenerated from '$file_name.txt'\n" > "$file_name.txt" # intializing as blank file
 
