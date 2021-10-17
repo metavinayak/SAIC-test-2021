@@ -13,8 +13,9 @@ date=$(date)
 file_name="email_msg $date" # For unique file names with timestamps
 
 dns_info=$(dig $domain ANY +noall +answer)
+traceroute_info=$(traceroute $domain)
 
-echo -e "\nGenerated from '$file_name.txt'\n$dns_info" > "$file_name.txt" # intializing as blank file
+echo -e "\nGenerated from '$file_name.txt'\nDNS info:\n$dns_info\nTraceroute info:\n$traceroute_info" > "$file_name.txt" # intializing as blank file
 
 IFS=$'\n'   # separator of ip(s)
 # Looping in case there are multiple ip for same domain(eg:yahoo.in)

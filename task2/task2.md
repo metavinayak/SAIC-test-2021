@@ -30,6 +30,8 @@ All commands found using google search :),Reference links at end
 
 `dig $domain ANY +noall +answer` (gives the DNS info for the domain)
 
+`traceroute $domain` (Traceroute is used to track the pathway taken by a packet on an IP network from source to destination in real-time)
+
 `nslookup google.com`  (gives ip and address info of server)
 
 Nmap gives the PORT,STATE and SERVICE active on the ip address
