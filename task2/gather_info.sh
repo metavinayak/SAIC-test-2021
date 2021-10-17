@@ -12,7 +12,9 @@ upper_p=$3  # Bash argument 3
 date=$(date)
 file_name="email_msg $date" # For unique file names with timestamps
 
-echo -e "\nGenerated from '$file_name.txt'\n" > "$file_name.txt" # intializing as blank file
+dns_info=$(dig $domain ANY +noall +answer)
+
+echo -e "\nGenerated from '$file_name.txt'\n$dns_info" > "$file_name.txt" # intializing as blank file
 
 IFS=$'\n'   # separator of ip(s)
 # Looping in case there are multiple ip for same domain(eg:yahoo.in)
