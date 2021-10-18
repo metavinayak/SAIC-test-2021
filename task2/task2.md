@@ -53,6 +53,8 @@ whois lokup gives a lot of registered info regarding the ip address organization
 
 ### References:
 
+From `man pages` documentation of various commands.
+
 https://www.tutorialspoint.com/how-to-find-linux-server-geographic-location-in-terminal
 
 https://www.2daygeek.com/check-find-dns-records-of-domain-in-linux-terminal/
@@ -74,3 +76,14 @@ https://stackoverflow.com/questions/878600/how-to-create-a-cron-job-using-bash-a
 Using bash arguments for user friendly inputs:
 
 https://stackoverflow.com/questions/13869879/storing-passed-arguments-in-separate-variables-shell-scripting/36558556
+
+
+## Learning outcomes :
+
+Learnt to gather lots of information about a domain/ip like finding all ip addresses of a domain,it's open ports,the DNS routes the data takes,all the whois info,etc
+
+Learnt mail automation using Python and Bash combined.
+
+Learnt Bash scripting(taking user input,creating cron jobs,invking scripts from main script,passing arguments)
+
+Learnt RegEx use through grep.

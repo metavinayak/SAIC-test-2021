@@ -26,7 +26,7 @@ The working of the script is done as comments in file itself.
 
 Google searches.Some previous knowledge of bash.
 
-Dry run if pull is needed:
+Performing Dry run(if pull is needed):
 
 https://stackoverflow.com/questions/3258243/check-if-pull-needed-in-git 
 
@@ -38,3 +38,14 @@ https://www.cyberciti.biz/faq/unix-linux-bsd-appleosx-bash-assign-variable-comma
 Error in assignment to bash variable:
 
 https://stackoverflow.com/questions/28186162/how-do-i-store-the-output-of-a-git-command-in-a-variable
+
+
+## Learning outcomes :
+
+Learnt more about git workflow(remote vs local), about `--dry-run` flag and automated handling of errors and merge conflicts.
+
+Learnt to check the status of command outputs using Bash variables and grep.
+
+Learnt making conditional statements and error handling in Bash(`exit 1`).
+
+Learnt redeployment automation of Flask app and about git pull automation by combining fetch and merge(better compared to direct pull).

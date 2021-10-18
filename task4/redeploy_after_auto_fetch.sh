@@ -4,6 +4,7 @@ remote_name="origin"    # remote name to pull from (eg:upstream,upstream2)
 branch_name="main"        # remote branch to pull from to a local branch with same name(assumption)
 
 check_remote=$(git remote -v 2>&1 | grep -c $remote_name)
+# 2>&1 means to redirect stderr output to the stdout so bash variable can recieve the output.
 if [ $check_remote != 0 ] # remote repo exists
 then
     echo "Remote url found...checking status"
