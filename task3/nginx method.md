@@ -8,8 +8,3 @@ NGINX:
 https://www.youtube.com/watch?v=qdq02d64pxc
 
 https://www.youtube.com/watch?v=s85Uj4Q29N4
-
-
-
-127.0.0.1   saic.example.com
-127.0.0.1   kp.example.com
