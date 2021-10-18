@@ -5,9 +5,13 @@ There are 2 scripts and one python file(Flask app) present for task 4
 The `auto_fetch.sh` is able to detect whether a repository has changed on a remote branch.It checks whether the **remote url exists or not**.It automatically **switches to the same branch as the remote branch being pulled**.It **also checks for merge conflicts** and informs the user as per the case.
 
 ### To use it,just specify the path of local git repository at the start of the file as :
-### `cd <path to local repo>`
+`cd <path to local repo>`
 
 The working of the script is done as comments in file itself.
+
+### See the working of scripts here(video) :
+
+https://drive.google.com/file/d/19hMafpgQvCXeqk3NmQpHfRCr79rOplpu/view?usp=sharing
 
 ------------------------------------------------------------------------------------------------------
 
