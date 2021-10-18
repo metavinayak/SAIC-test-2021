@@ -13,6 +13,8 @@ The working of the script is done as comments in file itself.
 
 https://drive.google.com/file/d/19hMafpgQvCXeqk3NmQpHfRCr79rOplpu/view?usp=sharing
 
+(Pls open with eductaional id)
+
 ------------------------------------------------------------------------------------------------------
 
 ## BONUS: 
